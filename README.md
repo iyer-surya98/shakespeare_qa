@@ -1,6 +1,8 @@
 # shakespeare-qa
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
-A Python project for performing document question answering (QA) on the complete works of William Shakespeare using [LangChain](https://github.com/langchain-ai/langchain) and [OpenAI](https://openai.com/).
+A Python project for performing [document question answering (QA)](https://huggingface.co/tasks/document-question-answering
+) on the complete works of William Shakespeare using [LangChain](https://github.com/langchain-ai/langchain) and [OpenAI](https://openai.com/).
 
 ## Overview
 
@@ -54,10 +56,6 @@ export OPENAI_API_KEY=your-api-key
 
 The Shakespeare text is sourced from [MIT OCW](https://ocw.mit.edu/ans7870/6/6.006/s08/lecturenotes/files/t8.shakespeare.txt).
 
-**License:**  
-You must include the license text provided with the file, as it specifies terms for personal use and non-commercial distribution.  
-See the relevant section in [`shaks12.txt`](shaks12.txt) for details.
-
 ## License
 
 This project is distributed under the terms specified in the Shakespeare file's license.  
@@ -70,4 +68,5 @@ Pull requests and suggestions are welcome!
 ## Acknowledgments
 
 - [LangChain](https://github.com/langchain-ai/langchain)
--
+- [OpenAI](https://openai.com/)
+- [MIT OCW](https://ocw.mit.edu/)
