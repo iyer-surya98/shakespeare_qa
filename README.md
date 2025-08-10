@@ -20,15 +20,11 @@ You can set up the project using either `uv` or `pip`:
 
 1. Install [uv](https://github.com/astral-sh/uv) if you don't have it:
    ```sh
-   pip install uv
+      curl -LsSf https://astral.sh/uv/install.sh | sh
    ```
 2. Install dependencies:
    ```sh
-   uv pip install -r requirements.txt
-   ```
-   Or, to use the lockfile:
-   ```sh
-   uv pip install --system --frozen
+      uv sync
    ```
 
 ### Using pip
